@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap');
+/* body{
+    background-color:plum !important;
+} */
+body{
+    background-image: url("./dusk-1280.jpg");
+    background-size: cover;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-top: 125px;
+    overflow: hidden;
+    /* background-image: url("./dusk.webp");
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+#button1{
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    position:relative;
+    right: -30px;
+    top: 4px;
+    
+}
+.dark-mode-body {
+   color: white;
+   background-image:url("./rock.jpg");
+   background-size: cover;
+}
+.dark-section-remove {
+    background-image:url("./rock.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.num, .am_pm{
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+     font-style: normal;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+
+.colon{
+    align-items: center;
+    position: relative;
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+@media screen and (max-width:767px) 
+{
+    .num{
+        font-family: "Ojuju", sans-serif;
+        font-size: 50px;
+        font-weight: 100;
+    }
+    .colon{
+         position: relative;
+        font-size: 50px;
+        font-weight: 100;
+        
+    }
+    #main{
+        margin-top: 300px;
+    }
+    .am_pm{
+        font-family: "Ojuju", sans-serif;
+        font-size: 50px;
+        font-weight: 100;
+    }
+    #button1{
+        left:30px;
+    }
+
+ 
+}
